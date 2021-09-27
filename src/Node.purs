@@ -1,4 +1,4 @@
-module Rendering.Node where
+module Taihe.Node where
 
 import Prelude hiding (add)
 

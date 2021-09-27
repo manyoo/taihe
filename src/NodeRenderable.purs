@@ -1,11 +1,11 @@
-module Rendering.NodeRenderable where
+module Taihe.NodeRenderable where
 
 
 import Data.List (List)
 import Data.Map (Map)
 import Data.Maybe (Maybe)
 import Data.Traversable (traverse)
-import Rendering.Node (Node)
+import Taihe.Node (Node)
 
 class NodeRenderable e a b where
     render :: a -> Node e b
