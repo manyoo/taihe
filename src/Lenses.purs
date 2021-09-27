@@ -52,3 +52,30 @@ _mouseMove = _Newtype <<< prop (Proxy :: Proxy "mouseMove")
 
 _tapped :: forall t a r. Newtype t { tapped :: a | r } => Lens' t a
 _tapped = _Newtype <<< prop (Proxy :: Proxy "tapped")
+
+_dragDelta :: forall t a r. Newtype t { dragDelta :: a | r } => Lens' t a
+_dragDelta = _Newtype <<< prop (Proxy :: Proxy "dragDelta")
+
+_mesh :: forall t a r. Newtype t { mesh :: a | r } => Lens' t a
+_mesh = _Newtype <<< prop (Proxy :: Proxy "mesh")
+
+_point :: forall t a r. Newtype t { point :: a | r } => Lens' t a
+_point = _Newtype <<< prop (Proxy :: Proxy "point")
+
+_color :: forall t a r. Newtype t { color :: a | r } => Lens' t a
+_color = _Newtype <<< prop (Proxy :: Proxy "color")
+
+_name :: forall t a r. Newtype t { name :: a | r } => Lens' t a
+_name = _Newtype <<< prop (Proxy :: Proxy "name")
+
+_parent :: forall t a r. Newtype t { parent :: a | r } => Lens' t a
+_parent = _Newtype <<< prop (Proxy :: Proxy "parent")
+
+_rotation :: forall t a r. Newtype t { rotation :: a | r } => Lens' t a
+_rotation = _Newtype <<< prop (Proxy :: Proxy "rotation")
+
+_scale :: forall t a r. Newtype t { scale :: a | r } => Lens' t a
+_scale = _Newtype <<< prop (Proxy :: Proxy "scale")
+
+_position :: forall t a r. Newtype t { position :: a | r } => Lens' t a
+_position = _Newtype <<< prop (Proxy :: Proxy "position")
