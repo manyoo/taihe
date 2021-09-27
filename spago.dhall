@@ -13,10 +13,16 @@ to generate this file without the comments in this block.
 { name = "taihe"
 , dependencies =
   [ "argonaut-codecs"
+  , "control"
   , "data-default"
+  , "datetime"
   , "effect"
   , "event"
+  , "event-extra"
+  , "filterable"
+  , "foldable-traversable"
   , "foreign-generic"
+  , "integers"
   , "math"
   , "maybe"
   , "newtype"
@@ -26,7 +32,11 @@ to generate this file without the comments in this block.
   , "psci-support"
   , "unsafe-coerce"
   , "web-dom"
+  , "web-events"
   , "web-file"
+  , "web-html"
+  , "web-touchevents"
+  , "web-uievents"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
