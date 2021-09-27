@@ -13,6 +13,7 @@ to generate this file without the comments in this block.
 { name = "taihe"
 , dependencies =
   [ "argonaut-codecs"
+  , "arrays"
   , "control"
   , "data-default"
   , "datetime"
